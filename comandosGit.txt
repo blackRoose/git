@@ -1,0 +1,43 @@
+git version (visualizar versão do git)
+git config --global user.name (Configuração do usuário)
+git config --global user.email (Configuração do e-mail do usuário)
+git config user.name (Visualizar usuário)
+git config user.email (Visualizar e-mail do usuário)
+git config core.editor (configuração do editor)
+git config --global core.editor "caminho do .exe do editor" (configuração do editor)
+pwd (Exibir o caminho aonde está no momento)
+cd (Descola o caminho ex: "cd /c")
+ls (Lista todos os caminho e diretório)
+mkdir (Criar diretórios)
+touch (Criar arquivo)
+git init (Criar repositório local)
+ls -a (Listará também os diretórios ocultos)
+git status (Listará as mudanças e modificações)
+git add (Adicionará os arquivos ao container)
+git add. ou git add * (Adicionará todos os arquivos de uma vez ao container)
+git commit -m "Comentário explicativo" (Adicionará os arquivos ao repositório, arquivos que já estavam no container)
+git log (Visualização e gerenciamento dos commits)
+git log --oneline (Visualização dos commits de uma forma mais simplificada)
+git log --graph (Visualizar o desenho do grafo dos commits)
+git commit -am "Comentário" (Adicionará as modificações ao container e ao mesmo tempo o commit) *ARGUMENTO -am*
+git branch (Identificará o ramo que o projeto se encontra)
+git checkout *hash do commit* (Rastreará e retornará para uma versão do projeto)
+git checkout master (Retornará a ultima modificação do projeto, caso estiver feito um retorno de commit)
+git diff (Mostrará as alterações realizadas, alterações que por tua vez ainda não foram adicionadas ao container)
+git checkout *nome do arquivo* (Irá desfazer alterações realizadas)
+git reset HEAD (Removerá o conteúdo do container)
+git reset --hard *hash do commit* (Removerá um commit e retaurará ao anterior)
+git checkout -b *nome* (Criará uma nova ramificação)
+git checkout master (Retornará ao ramo master)
+git log --oneline --graph --all (Observará todas as ramificações existentes)
+git remote (Verificará se há um repositório remoto)
+git remote -v (Verificará e mostrará com mais detalhes o repositório remoto, caso houver algum)
+git push (Sincronizará as mudanças realizadas no git para o github no repositório remoto)
+git pull (Sincronizará as mudanças realizadas no github para o git no repositório local)
+
+
+
+hash, master e head
+hash: Identificação abreviada ou não do commit
+master: Início ou parte principal do projeto
+head: Situação atual do projeto 
